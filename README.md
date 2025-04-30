@@ -5,7 +5,9 @@
 <p><strong>学习区块链智能合约开发，迈出职业跃迁的第一步</strong></p>
 </div>
 
-欢迎访问本仓库，这里是 [Solana区块链开发训练营](https://www.youtube.com/watch?v=amAq-WHAFs8) 的完整课程资源库。仓库包含了全套课程文档、代码示例和相关辅助资源。
+欢迎访问本仓库，这里是Solana区块链开发训练营的完整课程资源库。仓库包含了全套课程文档、代码示例和相关辅助资源。
+
+本课程为Solana官方训练营 [2024 Solana Bootcamp](https://www.youtube.com/watch?v=amAq-WHAFs8) 的官方华语版训练营。
 
 本训练营适合所有希望学习区块链开发的Builder。你不需要具备区块链、智能合约或 Rust 的基础知识，我们会从零开始，带你一步步学习如何在 Solana 区块链上开发应用。
 
@@ -32,6 +34,7 @@
 
 学习过程中遇到困难？欢迎查阅以下资源：
 
+- Solana 中文技术交流群：[Solar Solana Chinese Dev](https://t.me/solanadevcamp)
 - Solana 开发问答社区：[Solana StackExchange](https://solana.stackexchange.com/)  
 - Solana 官方文档：[Solana Documentation](https://solana.com/docs)  
 - Anchor 框架文档：[Anchor Documentation](https://www.anchor-lang.com/)  
