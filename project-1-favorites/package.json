@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.29.0",
+    "@solana/web3.js": "1.78.4",
+    "assert": "*",
+    "bn.js": "*"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.1",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.2",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.2.2"
+  }
+}
