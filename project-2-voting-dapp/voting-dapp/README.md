@@ -176,14 +176,14 @@ pub struct InitializePoll<'info> {
 
 #[program]
 pub mod voting {
-usesuper::*;
+use super::*;
 
-    pubfninitialize_poll(ctx: Context<InitializePoll>, poll_id: u64, description:String, poll_start: u64, poll_end: u64) ->Result<()> {
+    pub fn initialize_poll(ctx: Context<InitializePoll>, poll_id: u64, description:String, poll_start: u64, poll_end: u64) ->Result<()> {
         let poll = &mut ctx.accounts.poll;
         poll.poll_id = poll_id;
         poll.description = description;
-        poll.poll_start = poll_startas i64;
-        poll.poll_end = poll_endas i64;
+        poll.poll_start = poll_start as i64;
+        poll.poll_end = poll_end as i64;
         poll.candidates_amount = 0;
         Ok(())
     }
